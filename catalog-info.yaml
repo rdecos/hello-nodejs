@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: System
 metadata:
   name: rafalinrary
   description: |
@@ -18,6 +18,5 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://backstage.io
 spec:
-  type: library
   owner: CNCF
-  lifecycle: experimental
+  domain: experimental
